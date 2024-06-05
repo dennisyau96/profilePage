@@ -22,6 +22,8 @@ import cert17 from "../../assets/certificates/cert17.pdf";
 import cert18 from "../../assets/certificates/cert18.pdf";
 import cert19 from "../../assets/certificates/cert19.pdf";
 import cert20 from "../../assets/certificates/cert20.pdf";
+import cert21 from "../../assets/certificates/cert21.pdf";
+import cert22 from "../../assets/certificates/cert22.pdf";
 
 function Certificate() {
   const certs = [
@@ -87,6 +89,8 @@ function Certificate() {
     { cert: cert18, title: "Learning Java 17" },
     { cert: cert19, title: "学习 SQL (Learning SQL)" },
     { cert: cert20, title: "Adobe Illustrator CC" },
+    { cert: cert21, title: "Git Essential Training" },
+    { cert: cert22, title: "Kotlin Essential Training" },
   ];
   const [index, setIndex] = useState(0);
   const [certificates, setCertificates] = useState([...certs]);
