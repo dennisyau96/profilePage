@@ -95,9 +95,9 @@ function Certificate() {
   const [index, setIndex] = useState(0);
   const [certificates, setCertificates] = useState([...certs]);
 
-  // useEffect(() => {
-  //   loadData;
-  // }, []);
+  useEffect(() => {
+    certificates.sort((b, a) => b - a);
+  }, []);
 
   // function loadData() {
   //   setCertificates([]);
