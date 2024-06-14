@@ -3,8 +3,11 @@ const Experience = require("../model/experience.model");
 const Education = require("../model/education.model");
 const Skill = require("../model/skill.model");
 const Comment = require("../model/comment.model");
+const mongoose = require("mongoose");
 
 const router = express.Router();
+
+// const myColleciton = mongoose.Collection("test");
 
 //experience
 router.get("/experience", async (req, res) => {

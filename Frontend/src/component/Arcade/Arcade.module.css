@@ -12,6 +12,10 @@ input {
   align-items: center;
   display: inline-block;
 } */
+
+.modal-content {
+  justify-content: center;
+}
 .boxyWH {
   display: inline-block;
   text-align: justify;
@@ -139,7 +143,12 @@ input {
   color: white;
   box-shadow: grey 5px 5px;
 }
-
+.commentAfter {
+  justify-content: center;
+}
+.commentAfter:hover {
+  justify-content: center;
+}
 /*----------------------------------Dice Roller----------------------------------*/
 
 .diceRollerDiv {
